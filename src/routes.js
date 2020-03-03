@@ -18,7 +18,7 @@ const screenOptions = {
   },
 };
 
-function Routes() {
+export default function Routes() {
   return (
     <Stack.Navigator screenOptions={screenOptions}>
       <Stack.Screen name="Home" component={Home} />
@@ -26,5 +26,3 @@ function Routes() {
     </Stack.Navigator>
   );
 }
-
-export default Routes;

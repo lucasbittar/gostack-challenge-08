@@ -1,5 +1,5 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import {useSelector} from 'react-redux';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -12,7 +12,8 @@ import {
   Wrapper,
 } from './styles';
 
-function Header({navigation, cartTotalItems}) {
+export default function Header({navigation}) {
+  const cartTotalItems = useSelector(state => state.cart.length);
   function goHome() {
     navigation.navigate('Home');
   }
@@ -35,9 +36,3 @@ function Header({navigation, cartTotalItems}) {
     </Wrapper>
   );
 }
-
-const mapStateToProps = state => ({
-  cartTotalItems: state.cart.length,
-});
-
-export default connect(mapStateToProps)(Header);
