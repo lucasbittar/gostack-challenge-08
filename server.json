@@ -1,0 +1,66 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "quantity": 5
+    },
+    {
+      "id": 3,
+      "quantity": 2
+    },
+    {
+      "id": 4,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "quantity": 5
+    },
+    {
+      "id": 6,
+      "quantity": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Nike Air Max '97",
+      "price": 179.9,
+      "image": "https://images.footlocker.com/is/image/EBFL2/I5012001_a1?wid=640&hei=640&fmt=png-alpha"
+    },
+    {
+      "id": 2,
+      "title": "Nike Air Vapormax Plus",
+      "price": 139.9,
+      "image": "https://images.footlocker.com/is/image/EBFL2/W6973600_a1?wid=640&hei=640&fmt=png-alpha"
+    },
+    {
+      "id": 3,
+      "title": "Jordan Retro 1 High OG",
+      "price": 219.9,
+      "image": "https://images.footlocker.com/is/image/EBFL2/55088062_a1?wid=640&hei=640&fmt=png-alpha"
+    },
+    {
+      "id": 5,
+      "title": "Jordan Retro 10",
+      "price": 139.9,
+      "image": "https://images.footlocker.com/is/image/EBFL2/10805137_a1?wid=640&hei=640&fmt=png-alpha"
+    },
+    {
+      "id": 6,
+      "title": "Jordan True Flight",
+      "price": 219.9,
+      "image": "https://images.footlocker.com/is/image/EBFL2/42964070_a1?wid=640&hei=640&fmt=png-alpha"
+    },
+    {
+      "id": 4,
+      "title": "Nike Air Max 270",
+      "price": 179.9,
+      "image": "https://images.footlocker.com/is/image/EBFL2/H8050026_a1?wid=640&hei=640&fmt=png-alpha"
+    }
+  ]
+}
